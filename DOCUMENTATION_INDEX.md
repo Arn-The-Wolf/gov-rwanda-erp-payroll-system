@@ -225,7 +225,38 @@
 
 ---
 
-### 13. DOCUMENTATION_INDEX.md (This File)
+### 13. OTP_GUIDE.md (420 lines)
+**Purpose**: OTP authentication documentation  
+**Best For**: Understanding OTP system  
+**Contains**:
+- Complete OTP implementation
+- 3 API endpoints (generate, verify, login)
+- Security features
+- Email configuration
+- Testing guide
+- Troubleshooting
+
+**When to Read**: When implementing or testing OTP authentication
+
+---
+
+### 14. PASSWORD_RESET_GUIDE.md (600 lines) 🌟
+**Purpose**: Password reset documentation  
+**Best For**: Understanding password recovery  
+**Contains**:
+- Email-based password reset flow
+- 3 API endpoints (forgot, reset, validate)
+- Security features (UUID tokens, expiry)
+- Password strength requirements
+- Email configuration
+- Complete testing guide
+- Troubleshooting common issues
+
+**When to Read**: When implementing or testing password reset
+
+---
+
+### 15. DOCUMENTATION_INDEX.md (This File)
 **Purpose**: Guide to all documentation  
 **Best For**: Finding the right document  
 **Contains**:
@@ -310,8 +341,10 @@
 | CORRECTIONS_APPLIED.md | 450 | Corrections | ⭐⭐⭐ High |
 | FINAL_SUBMISSION_REPORT.md | 650 | Submission | ⭐⭐ Medium |
 | COMPLETION_REPORT.md | 500 | Deliverables | ⭐ Low |
+| OTP_GUIDE.md | 420 | OTP auth | ⭐⭐ Medium |
+| PASSWORD_RESET_GUIDE.md | 600 | Password reset | ⭐⭐ Medium |
 | DOCUMENTATION_INDEX.md | 400 | This file | ⭐⭐ Medium |
-| **TOTAL** | **6,545** | **13 files** | |
+| **TOTAL** | **7,565** | **15 files** | |
 
 ---
 
@@ -386,6 +419,8 @@ payroll-management/
 ├── CORRECTIONS_APPLIED.md      ⭐ Corrections
 ├── FINAL_SUBMISSION_REPORT.md  Submission
 ├── COMPLETION_REPORT.md        Deliverables
+├── OTP_GUIDE.md                OTP authentication
+├── PASSWORD_RESET_GUIDE.md     Password reset
 ├── DOCUMENTATION_INDEX.md      This file
 └── HELP.md                     (Spring Boot default)
 ```
@@ -451,7 +486,7 @@ payroll-management/
 - [x] Submission documentation (FINAL_SUBMISSION_REPORT)
 - [x] Index documentation (This file)
 
-**Total**: 13 comprehensive documents covering every aspect
+**Total**: 15 comprehensive documents covering every aspect
 
 ---
 
@@ -484,7 +519,7 @@ Reference:
 
 ## 🏆 YOU'RE READY!
 
-With these 13 comprehensive documents (6,545+ lines), you have:
+With these 15 comprehensive documents (7,565+ lines), you have:
 
 ✅ Complete setup instructions  
 ✅ Full system understanding  
@@ -505,4 +540,4 @@ With these 13 comprehensive documents (6,545+ lines), you have:
 
 *Documentation Index - ERP Payroll Management System*  
 *National Java Practical Exam 2024-2025*  
-*13 Documents | 6,545+ Lines | 100% Complete*
+*15 Documents | 7,565+ Lines | 100% Complete*

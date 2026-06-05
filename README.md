@@ -31,11 +31,12 @@
 This **Enterprise Resource Planning (ERP) Payroll Management System** is a complete, full-stack application designed to manage employee payroll operations for Rwandan government institutions. The system implements:
 
 ✅ **All 6 National Exam Tasks** (100% Compliance)  
-✅ **60 Java Classes** with clean architecture  
-✅ **31+ REST API Endpoints** with Swagger documentation  
+✅ **75 Java Classes** with clean architecture  
+✅ **40+ REST API Endpoints** with Swagger documentation  
 ✅ **JWT Authentication** with role-based authorization  
 ✅ **PostgreSQL Database** with triggers, stored procedures, and cursors  
-✅ **Comprehensive Documentation** (6,500+ lines across 16 files)
+✅ **Comprehensive Documentation** (7,500+ lines across 18 files)  
+✅ **OTP & Password Reset** - Modern authentication features
 
 ### Key Highlights
 
@@ -63,6 +64,8 @@ This **Enterprise Resource Planning (ERP) Payroll Management System** is a compl
 - Role-based authorization (ADMIN, MANAGER, EMPLOYEE)
 - BCrypt password encryption
 - Stateless session management
+- **OTP Authentication**: 6-digit OTP via email (5-min expiry)
+- **Password Reset**: Email-based password recovery with UUID tokens (1-hour expiry)
 
 ### 3. Employment Management
 - Professional details tracking
