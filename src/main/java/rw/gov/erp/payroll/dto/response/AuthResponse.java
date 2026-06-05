@@ -11,6 +11,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class AuthResponse {
     
+    @Builder.Default
+    private Boolean success = true;
+    
+    private String message;
+    
     private String token;
     
     @Builder.Default

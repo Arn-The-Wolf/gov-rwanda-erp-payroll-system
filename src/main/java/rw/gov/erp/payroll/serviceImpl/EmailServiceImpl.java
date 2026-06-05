@@ -41,4 +41,20 @@ public class EmailServiceImpl implements EmailService {
             log.error("Failed to send email to {}: {}", paySlip.getEmployee().getEmail(), e.getMessage());
         }
     }
+    
+    @Override
+    public void sendEmail(String to, String subject, String body) {
+        try {
+            SimpleMailMessage mailMessage = new SimpleMailMessage();
+            mailMessage.setTo(to);
+            mailMessage.setSubject(subject);
+            mailMessage.setText(body);
+            
+            mailSender.send(mailMessage);
+            log.info("Email sent successfully to: {}", to);
+        } catch (Exception e) {
+            log.error("Failed to send email to {}: {}", to, e.getMessage());
+            throw new RuntimeException("Failed to send email: " + e.getMessage());
+        }
+    }
 }
